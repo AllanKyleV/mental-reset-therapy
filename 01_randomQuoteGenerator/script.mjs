@@ -28,6 +28,6 @@ generateBtn.addEventListener("click", () => {
   } else {
     const [quote, author] = getRandomQuote(quotes);
     quoteText.textContent = quote;
-    quoteAuthor.textContent = author;
+    quoteAuthor.textContent = `- ${author}`;
   }
 });

@@ -8,6 +8,10 @@
     box-sizing: border-box;
 }
 
+h1 {
+    color: darkblue;
+}
+
 main {
     display: flex;
     flex-direction: column;
@@ -23,6 +27,13 @@ button {
     padding: 0.75rem;
     cursor: pointer;
     border: none;
+    font-family: var(--main-font);
+    border-radius: 0.5rem;
+    background-color: lightgray;
+}
+
+button:hover {
+    background-color: darkgrey ;
 }
 
 #quote-box {
@@ -32,5 +43,11 @@ button {
 }
 
 #quote-text {
+    font-style: italic;
+}
+
+#quote-author {
+    text-align: right;
+    font-weight: 500;
     font-style: italic;
 }
